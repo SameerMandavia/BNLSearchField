@@ -1,0 +1,67 @@
+.form-control {
+  margin: 50% 90%;
+  padding-right: 8%;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 5px #52e045;
+  border: 1px solid #52e045;
+}
+
+.autoCompleteDataList {
+  position: absolute;
+  /* z-index: 1; */
+  width: 93%;
+  max-height: 200px;
+  background: #f6f6f6;
+  margin-left: 84%;
+  margin-top: -46%;
+  overflow-y: auto;
+  cursor: pointer;
+  box-shadow:0 1px 6px 0 rgba(32, 33, 36, .28);
+  border-radius: 1%;
+  
+}
+
+.datalist {
+  padding: 10px;
+}
+
+.datalist:hover {
+  background: #e7e7e7;
+}
+
+.searchIcon {
+  position: absolute;
+  /* z-index: 1; */
+  font-size: 20px;
+  display: flex;
+  margin-top: 49%;
+  margin-left: 170%;
+
+  color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+  .form-control {
+    margin-left: 4%;
+    width: 92%;
+    padding-right: 6%;
+  }
+
+  .autoCompleteDataList {
+    margin-top: -47%;
+    margin-left: 4%;
+    width: 86%;
+  }
+
+  .searchIcon {
+    position: absolute;
+    /* z-index: 1; */
+    font-size: 20px;
+    display: flex;
+    margin-top: 49%;
+    margin-left: 86%;
+    color: #000000;
+  }
+}
